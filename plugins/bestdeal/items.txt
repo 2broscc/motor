@@ -1,0 +1,142 @@
+<!-- old code!! -->
+
+
+
+<div id="infopanel_bottom">
+<div align=right style="padding-top:5px;padding-right:14px;">{PAGE_EMAIL_ME} {PAGE_PRINT}</div>
+</div>
+
+
+
+
+<div id="forum_main">
+
+
+
+<table class="flat">
+<tr>
+<td width="25%">
+<div class="block">
+<h4>{PHP.skinlang.bd_Cats}</h4>
+{INDEX_INFO_CATS}
+</div>
+</td>
+<td width="38%" valign="top">
+
+
+
+
+<!-- BEGIN: INDEX_INFO_LASTINHEADCATS -->
+
+<div class="block">
+<h4>{VIEW_CAT_INFO_NAME}</h4>
+<table width="100%">
+<!-- BEGIN: ROW -->
+<tr>
+<td width="50%">
+<a href="plug.php?e=bestdeal&amp;id={VIEW_ITEM_INFO_ID}">{VIEW_ITEM_INFO_NAME}</a>
+<td>
+<td width="50%" style="text-align:right">
+{VIEW_ITEM_INFO_PRICE}
+</td>
+</tr>
+<!-- END: ROW -->
+</table>
+</div>
+<!-- END: INDEX_INFO_LASTINHEADCATS -->
+
+</td>
+<td width="38%" valign="top">
+
+<!-- BEGIN: INDEX_INFO_RANDOM -->
+<div class="block">
+<h4>{PHP.skinlang.bd_Randomob}</h4>
+<table width="100%">
+<tr>
+<td colspan="2" style="text-align:center">
+<a href="plug.php?e=bestdeal&amp;id={VIEW_ITEM_INFO_ID}">{VIEW_ITEM_INFO_PHOTO}</a>
+<td>
+</tr>
+<tr>
+<td colspan="2">
+<a href="plug.php?e=bestdeal&amp;id={VIEW_ITEM_INFO_ID}">{VIEW_ITEM_INFO_NAME}</a>
+
+</td>
+
+</tr>
+<tr>
+<td colspan="2" style="font-size:10px;">
+{VIEW_ITEM_INFO_DETAILS}
+</td>
+</tr>
+<tr>
+<td width="50%" style="text-align:left;">
+{VIEW_ITEM_INFO_PRICE}
+</td>
+<td style="text-align:right">
+{VIEW_ITEM_INFO_LOCATION}
+</td>
+</tr>
+</table>
+</div>
+<!-- END: INDEX_INFO_RANDOM -->
+
+
+<!-- BEGIN: INDEX_INFO_LASTITEMS -->
+<div class="block">
+<h4>{PHP.skinlang.bd_Lastsubob}</h4>
+<table width="100%">
+<!-- BEGIN: ROW -->
+<tr>
+<td width="50%">
+<a href="plug.php?e=bestdeal&amp;id={VIEW_ITEM_INFO_ID}">{VIEW_ITEM_INFO_NAME}</a>
+<td>
+<td width="50%" style="text-align:right">
+{VIEW_ITEM_INFO_PRICE}
+</td>
+</tr>
+<!-- END: ROW -->
+</table>
+</div>
+<!-- END: INDEX_INFO_LASTITEMS -->
+
+
+
+<!-- BEGIN: INDEX_INFO_LASTBIDS -->
+<div class="block">
+<h4>{PHP.skinlang.bd_Lastbidders}</h4>
+<table width="100%">
+<tr>
+<td>
+{PHP.skinlang.bd_bidobject}
+</td>
+<td>
+{PHP.skinlang.bd_bidbidder}
+</td>
+<td style="text-align:right">
+{PHP.skinlang.bd_bidbid}
+</td>
+</tr>
+<!-- BEGIN: ROW -->
+<tr>
+<td width="50%">
+<a href="plug.php?e=bestdeal&amp;id={VIEW_ITEM_INFO_ID}">{VIEW_ITEM_INFO_NAME}</a>
+</td>
+<td>
+{VIEW_ITEM_INFO_BID_USER}
+</td>
+<td style="text-align:right">
+{VIEW_ITEM_INFO_BID_BID}
+</td>
+</tr>
+<!-- END: ROW -->
+</table>
+</div>
+<!-- END: INDEX_INFO_LASTBIDS -->
+</td>
+</tr>
+</table>
+
+</div>
+
+<!-- END: MAIN -->

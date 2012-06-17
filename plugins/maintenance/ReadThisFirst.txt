@@ -1,0 +1,44 @@
+Hi!
+
+This is a maintenance plugin designed to inform users of a site being down due to upgrading or just to make them mad... mostly the first option...
+
+In your users.auth.tpl place {MAINTENANCE} tag.
+
+There are two options to choose from...
+
+The first is having the user redirect to users.php?m=auth
+The second is having a user redirect to a file within the seditio root.
+
+
+First things first:
+
+Upload the script into plugins/maintenance
+
+Install script in Administration
+
+Choose The Options You Desire
+
+------
+
+Breaking Down The Options....
+
+To Acheive Option 1
+
+Click Maintenance Mode Turned On : Yes
+Click Redirect to the user auth page. This is the default choice... : Yes
+
+This gets the user redirecting to users.php?m=auth
+
+To Acheive Option 2
+Maintenance Mode Turned On : "Yes"
+
+Change script to redirect to a different page? : "Yes"
+
+Place your page into the following form feild... this can only be a file located in the SED root... no off site pages...
+
+----------
+
+If you use options 2 remember you can always go to users.php?m=auth and log in again.
+
+
+Have Fun!

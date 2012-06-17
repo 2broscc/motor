@@ -1,0 +1,15 @@
+<?php
+
+$adminmain .="<form action=\"queries/bestdealakcio_insert.php\" method=\"post\">
+
+<div id=\"amsg\">$a_msg</div><br>
+
+<br>
+Cím:<input type=\"text\" value=\"\" name=\"bestdealakico_title\" />
+Szöveg:<textarea name=\"bestdealakcio_szoveg\" rows=\"5\" cols=\"100%\">Szöveg...</textarea>
+<br>
+
+<input type=\"submit\" />
+</form>";
+
+?>

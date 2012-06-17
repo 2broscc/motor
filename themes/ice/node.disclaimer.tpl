@@ -1,0 +1,187 @@
+<!-- BEGIN: MAIN -->
+
+
+<div id="main">
+
+<div id="holder">
+<table>
+<tr>
+<!--left side box-->
+<td>
+
+	<div>
+		<div id="lbox_top">
+			<div style="padding-top:4px;">
+				<div id="menupadding"><h5>Kapcsolódó linkek</h5></div>
+			</div>
+		</div>
+		<div id="lbox_mid">
+		
+			<div id="content_pos">
+				<ul class="leftpanel">
+					{RIDELINE_MENU}
+				</ul>
+			</div>
+		
+		</div>
+		<div id="lbox_bot"></div>
+	
+	
+	</div>
+
+
+</td>
+<!--left side box-->
+
+<!--right side box-->
+<td>
+	<div>
+		<div id="pagewidebox_top">
+		
+				<div style="padding-top:4px;">
+					<div id="menupadding"><h5>RidelineMTB - Felhasználási feltételek</h5></div>
+				</div>
+			
+		</div>
+		<div id="pagewidebox_mid">
+		
+		<div id="page_widebox_contentpos">
+				<div id="page_title">{PAGE_TITLE}</div>
+				
+
+			
+			
+			<!--<div class="colleft">{PAGE_DESC}</div>-->
+			<div>
+			
+<i><font size="2">Rideline <br>
+			v.1.0 09-02-06 </font></i><font size="2"><br>
+			<br>
+			<br>
+			Minden új felhasználó, aki regisztrál a Rideline rendszerbe, 
+			tudomásul veszi, és elfogadja a mindenkori hatályban lévõ 
+			felhasználási feltételeket, és betartja azokat. A felhasználási 
+			feltételek változtatásának jogát az oldal készítõi fenntartják, 
+			változtatás esetén a felhasználókat email formájában kiértesítik.
+			<br>
+			<br>
+			1, A regisztrált tagok, kötelesek betartani, minden Rideline 
+			szinten, azokat a szabályokat, melyeket az oldal adminisztrátorai 
+			fektetnek le, akár írásos formában van, akár az adott program-modul 
+			mûködésének része. Ezek szabályok megsértése magában foglalja, az 
+			általános felhasználási feltételek megszegését is, amit 
+			regisztrációkor elfogadott mindenki, így az adminisztrátorok 
+			büntethetik a szabálysértõket, az éppen hatályban lévõ összes 
+			lehetõséggel, melyek az adott szint „büntetések” oldalán 
+			olvashatóak. <br>
+			<br>
+			2, Tilos bármilyen tevékenység, mely rendellenes megjelenést, vagy 
+			rendszermûködést eredményez. Ha ilyenre kerül sor, az illetõ köteles 
+			a tevékenységet megszüntetni, és amennyiben lehetõsége van, 
+			visszaállítani az eredeti állapotot, majd a hibáról értesíteni az 
+			oldal fejlesztõit. Az ilyen fajta tevékenység szándékosságának 
+			bebizonyosodása esetén, az illetõ a legnagyobb fokozatú kitiltásban 
+			részesül a rideline rendszer minden oldaláról, szolgáltatásából, 
+			végleges idõtartammal. <br>
+			<br>
+			3, Tilos minden olyan tartalom (kép, videó, animáció, szöveg, 
+			hanganyag) megjelentetése mely a közhangulat és jó ízlés 
+			megzavarására képes. Még a belinkelésük is szigorúan TILOS! <br>
+			<br>
+			4, WAREZ tartalmakért, témákért, hozzászólásokért, melyeket az oldal 
+			regisztrált felhasználói írnak, a fejlesztõk nem vállalnak 
+			felelõsséget és nem is járulnak hozzá. Használatuk kerülendõ, mert 
+			mindenki tartsa szem elõtt a warez mögötti tényleges tevékenységet, 
+			ezáltal az oldal fejlesztõinek, mindenkori moderátorainak jogában 
+			áll az illegális tartalmú írások, anyagok azonnali törlése. <br>
+			<br>
+			5, Bármilyen reklám, vagy arra irányuló tevékenység, melyek 
+			elõfordulhatnak írásokban, hozzászólásokban, adatlapon, és egyéb 
+			helyeken a rendszerben, szabályokhoz vannak kötve. Két féle lényeges 
+			kitételt szabnak meg az oldal készítõi, a reklámtevékenységekkel 
+			kapcsolatban. <br>
+			<br>
+			a, Non-profit dolgokat, rendezvényeket, hirdetni, reklámozni, 
+			ajánlani korlátozás nélkül lehet (ha azok tartalma, célja nem 
+			ütközik a szabályzatban leírtakkal), sõt, az olyan 
+			kezdeményezéseket, melyek jelentõsen meghatározzák a játékosokat és 
+			játékokat, még támogatjuk is azzal, hogy jelentõsebb felületet is 
+			biztosítunk nekik, ez csak megkeresés és megbeszélés tárgya. <br>
+			<br>
+			b, Az olyan reklámok, hirdetések megjelentetése, belinkelése, mely 
+			hasonló szolgáltatást, tevékenységet folytat, mint az oldal rendszer 
+			bármelyik tagja, TILOS. <br>
+			<br>
+			Azok, melyek egyik csoportban sem férnek meg, azokat az oldal 
+			moderátorai bíráják el s döntenek azok megtartásáról, illetve 
+			eltávolításáról.<br>
+			6, A Rideline oldal minden embernek egyenrangúan elérhetõ, nemtõl, 
+			kortól, bõrszíntõl, vallási hovatartozástól, politikai 
+			meggyõzõdéstõl függetlenül. Az oldal moderátorai és készítõi, 
+			fellépnek minden, írással, megnyilvánulással, jelképpel szemben, 
+			mely vallási, politikai (történelmi), faji tartalmú, ezeket a 
+			témákat kerüljük, mert kitiltással akár törléssel is járhat. <br>
+			<br>
+			7, A oldalakon továbbá fellépünk minden hatásos eszközzel, a sértõ, 
+			megalázó, trágár stílussal, írásokkal szemben. Ilyen esetekben 
+			kitiltással vagy törléssel vetünk véget, az ilyen tartalmat 
+			produkáló felhasználó pályafutásának. <br>
+			<br>
+			8, Az oldalon a regisztrált felhasználóknak TILOS bármilyen 
+			jogvédett anyagot engedély nélkül átmásolni, megjelentetni a 
+			rideline oldalain. Szerzõi jogokat, más munkáját a STAFF 
+			tiszteletben tartja, és tartatja! Jogvédett anyagok, más oldalakról 
+			való másolása, súlyos szabályszegésnek minõsül, büntetést, vagy akár 
+			kizárást von maga után! <br>
+			<br>
+			9, A Rideline logo és minden grafikai elem a creative commons 
+			licence alatt fut. Ezeknek a terjesztése s felhasználása szigorúan 
+			TILOS a beleegyezésünk nélkül. A logo-ra vonatkozó lincence : http://creativecommons.org/licenses/by-nc-nd/2.5/hu/
+			<br>
+			<br>
+			Minden egyéb, új kérdésekben, esetekben az oldal készítõi döntenek, 
+			és döntésüket feltétel nélkül el kell fogadni, az érintett félnek 
+			vagy feleknek, amennyiben nem fogadják el, törlésre kerülnek. Az 
+			oldal általános felhasználási feltételeinek nem ismerete nem 
+			mentesít senkit a felelõsség vagy a büntetés alól, mivel 
+			regisztráció alkalmával elfogadta azt. <br>
+			<br>
+			Kellemes idõtöltést kívánunk a Rideline oldalán, oldalain. Rideline 
+			Crew </font></font>
+			
+			
+			</div>
+			
+
+			
+		</div>
+		</div>
+		
+		
+		
+<div id="pagewidebox_bot"></div>
+<div>
+	
+	
+	
+	</div>
+
+
+</td>
+<!--right side box-->
+
+
+</tr>
+
+</table>
+
+
+</div> <!-- wbox holder -->
+
+	
+
+
+</div>
+
+
+<!-- END: MAIN -->

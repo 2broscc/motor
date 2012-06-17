@@ -1,0 +1,119 @@
+index.tpl tags @index.inc.php
+
+	"NEWS_MASK" => $mask,
+
+    "EVENT" => $eventmask,
+	"EVENT_HANDLER_TITLE" => $top_counter_title,
+	"EVENT_HANDLER_COUNTER" => $countdownmask,
+	
+	"EVENT_EXPANDED_OFF" => $expanded_content_off,
+	"EVENT_COUNTER_OFF" =>  $counter_div_off,
+	
+	"EVENT_HANDLER_ONOFF" => $eventhandler_show,
+	"EVENT_HANDLER_DIV" => $div_top,
+	
+ 	"SLIDER_ELEM0_MASK" => $slider_elem0_mask,
+	"SLIDER_ELEM1_MASK" => $slider_elem1_mask,
+	"SLIDER_ELEM2_MASK" => $slider_elem2_mask,
+	"SLIDER_ELEM3_MASK" => $slider_elem3_mask,
+	"SLIDER_ELEM4_MASK" => $slider_elem4_mask,
+	
+  
+	"LIVECAST_TITLE" => $livecast_title,
+	"LIVECAST_RECENT" => $livecast_recent,
+	"TP_TITLE1" => $tp_title1,
+	"MBKSE_BANNER" => $mbkse_banner,
+	"INDEX_AD1" => $index_ad_1,
+	"INDEX_AD2" => $index_ad_2,
+	"INDEX_AD3" => $index_ad_3,
+	"INDEX_AD4" => $index_ad_4,
+	"INDEX_AD5" => $index_ad_5,
+	
+	"INDEX_STANDMAG_ISSUE_LINK" => $standmag_issue_link,
+	"INDEX_STANDMAG_ISSUE_TITLE" => $standmag_issue_title,
+	"INDEX_STANDMAG_ISSUE_IMG" => $standmag_issue_img,
+	
+	"INDEX_VIDEO_OF_THE_WEEK_LINK" =>$ki_link_id,
+	"INDEX_VIDEO_OF_THE_WEEK" => $ki_out_vimeo,
+	"INDEX_EVENT" => $index_event_div_show,
+	"INDEX_DIV_TOGGLEBUTTON" => "<a id=\"togglebutton\" href=\"#\" onclick=\"return hide('infopanel',this)\" title=\"Kinyit/Becsuk!\"></a>",
+		));
+		
+-------------------------------------------------------
+
+recentitems.php tags
+
+
+"PLUGIN_LATEST_EVENT_ITMES" => $latesttopitmes,
+	"PLUGIN_LATEST_LIFESTYLE" => $latestlifestyle,
+	"PLUGIN_LATEST_TECH" => $latesttech,
+	"PLUGIN_LATEST_TEST" => $latesttest,
+	"PLUGIN_LATEST_INTERVIEW" => $latestinterju,
+	"PLUGIN_LATEST_ARTICLE" => $latestarticles,
+	"PLUGIN_LATESTRACE_EVENT" => $latestraceevent,
+	"PLUGIN_LATESTMAGAZINE" => $latestmagazine,
+	"PLUGIN_LATESTBIKECHECK" => $latestbikecheck,
+	"PLUGIN_LATESTPAGES" => $latestpages,
+	"PLUGIN_LATESTTOPICS" => $latesttopics,
+	"PLUGIN_LATESTVIDEOSAROK" => $latestvideosarok,
+	"PLUGIN_LATESTRIDECAST" => $latestridecast,
+	"PLUGIN_LATESTBLOG" => $latestblog,
+	"PLUGIN_LATESTPOLL" => $latestpoll,
+	
+------------------------------------------------------
+
+index rev 1 index.tpl 
+
+<td> <!-- left side -->
+
+<div id="l_holder">
+
+<div id="lbox_top">	
+	<div id="content_pos">
+		<div id="newstitle">Hírdetések</div>
+	</div>
+</div>
+
+<div id="lbox_mid"></div>
+<div id="lbox_bot"></div>
+
+</div> <!-- left box holder end -->
+
+
+</td> <!-- left side end -->
+
+-------------------------------------------------------
+
+
+	<div id="newsbox_content">
+	
+		<script type="text/javascript">/*<![CDATA[*/ document.write('<div id="infopanel_mini" style="display: ' + ((states.GetItem('infopanel') == 1) ? 'block' : 'none') + '">'); /*]]>*/</script>
+			
+				<div id="infopanel_mini">
+		
+			{NEWS_MASK}
+		
+		<script type="text/javascript">/*<![CDATA[*/ document.write('<\/div>'); /*]]>*/</script>
+				</div> <!-- closed state -->
+	
+		<script type="text/javascript">/*<![CDATA[*/ document.write('<div id="infopanel" style="display: ' + ((states.GetItem('infopanel') == 1) ? 'none' : 'block') + '">'); /*]]>*/</script>
+				<div id="infopanel">
+					
+					<table>
+					<tr>
+						<td>{TOP_NEWS}</td>
+						
+						<td>{PLUGIN_LATEST_NEWS}</td>
+					
+					</tr>
+					
+					</table>
+					
+					
+					<!--<p align="center">
+					{INDEX_NEWS}</p>-->
+				</div> <!-- opened state -->
+	
+	<script type="text/javascript">/*<![CDATA[*/ document.write('<\/div>'); /*]]>*/</script>
+	
+	</div> <!-- newsbox content -->

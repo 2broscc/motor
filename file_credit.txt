@@ -1,0 +1,26 @@
+/*
+
+Filename: mailer.php
+CMS Framework based on Seditio v121 www.neocrome.net
+Re-programmed by 2bros cc
+Date:02-02-2011
+Programmer: Peter Magyar
+Email:ridelineonline@gmail.com
+http://2bros.atw.hu
+
+This file has been added by 2bros cc
+
+*/
+
+
+<!--
+
+Filename: mailer.php
+RidelineMTB V2 skin
+Copyright  2bros cc
+Date:02-02-2011
+Programmer: Peter Magyar
+Email:ridelineonline@gmail.com
+http://2bros.atw.hu
+
+-->

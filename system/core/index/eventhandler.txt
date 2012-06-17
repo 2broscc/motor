@@ -1,0 +1,37 @@
+/*Top event handler on off query --start*/	
+	
+$topeventhandler_result = mysql_query("SELECT * FROM sed_topeventhandler");
+
+	while($row = mysql_fetch_array($topeventhandler_result)) {
+	
+	$eventhandler_onoff = $row['topevent_onoff'];
+	$top_counter = $row['topevent_counter'];
+	$top_counter_settime = $row['topevent_counter_settime'];
+	$top_counter_title = $row['topevent_counter_title'];
+	$topevent_image  = $row['topevent_image'];
+	$topevent_linkid = $row['topevent_linkid'];
+	$topevent_descrip = $row['topevent_descrip'];
+	//echo $top_counter;
+	
+			
+	}
+	
+if ($eventhandler_onoff == 1) {
+
+			$eventhandler_show = "Display:block";
+	
+if ($top_counter == 1) {
+	
+	$countdownmask= "<h2>$top_counter_title</h2><script type=\"text/javascript\" language=\"JavaScript\">TargetDate = \"$top_counter_settime\";</script> <p><span class=\"countdown\"><script type=\"text/javascript\" language=\"JavaScript\" src=\"js/countdown.js\"></script></span></p>";
+	$expanded_content_off = "display:none";
+	}
+	else if ($top_counter == 0)   { 
+	
+	$counter_div_off = "display:none";
+	$eventmask = "<a href=\"page.php?id=$topevent_linkid\"><div class=\"indexevents_imgcontainer \"><img src=\"$topevent_image\" height=\"350px\" width=\"470px\" alt=\"hell\"/></a></div> <br> $topevent_descrip";}
+				
+}
+if ($eventhandler_onoff == 0) {	$eventhandler_show ="Display:none";	}
+	
+
+ /*Top event handler on off query --end*/

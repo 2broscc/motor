@@ -1,0 +1,6 @@
+<?PHP
+
+
+/* ==== Directory blocker ==== */
+
+?>

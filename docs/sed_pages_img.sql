@@ -1,0 +1,1 @@
+ALTER TABLE `sed_pages` ADD `page_image` VARCHAR( 100 ) NOT NULL AFTER `page_extra5` ;

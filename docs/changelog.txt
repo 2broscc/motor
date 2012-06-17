@@ -1,0 +1,46 @@
+/devlog
+we're using a modded sedition cms framework (sed121)
+
+we've been working on our release from 2009. december
+
+	included a lot of new codeparts and new features
+	
+/
+
+-------------------------------------------------------------------------------------------------------------------
+
+supported web browsers and system requirements, bandwidth
+
+	- ridelinemtb is supports the following browsers on full speed.
+		
+			- MS Internet Explorer 8 and above
+			- Mozilla Firefox 3.0 and above (we're developing under mozilla so the full user experiance can be reached with firefox)
+			- Opera 10 and above
+			- Apple Safari 3.0 and above
+			- Google Chrome 4.0 and above
+			
+	required for all browsers:
+	
+		- enabled cookies for our main services
+		- flashplayer support (Adobe FlashPlayer)
+		
+	system requirements
+	
+	- optimal sysreq is:
+	
+		- CPU: 1,5GHz, 1Gigs of Ram, 128Mbyte video memory, 1024×768 resolution.
+		- The optimal bandwidth is 5 Mbit or above 
+		
+	
+	
+	
+	
+	
+2011.02.04 //added features 
+rev. name rlmtb 2.00 r993
+
+	uploaded the source our webhosting.
+	
+	
+	
+Planned features/bug fixies:

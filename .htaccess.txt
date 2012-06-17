@@ -1,0 +1,25 @@
+# Rewrite engine options
+Options FollowSymLinks -Indexes
+RewriteEngine On
+# Server-relative path to seditio:
+RewriteBase /ridelinemtb/
+# Engine Shortcuts
+RewriteRule ^user/(.+)\.html(#.*)?$ users.php?rwr=m-details/ual-$1$2 [NC,NE,L]
+RewriteRule ^c-(.+)\.html(#.*)?$ list.php?rwr=c-$1$2 [NC,NE,L]
+RewriteRule ^i-([0-9]+)-[^/]+(.*)\.html(#.*)?$ page.php?rwr=id-$1$2$3 [NC,NE,L]
+RewriteRule ^i-(.+)\.html(#.*)?$ page.php?rwr=id-$1$2 [NC,NE,L]
+RewriteRule ^a-(.+)\.html(#.*)?$ page.php?rwr=al-$1$2 [NC,NE,L]
+RewriteRule ^p-(.+)\.html(#.*)?$ plug.php?rwr=e-$1$2 [NC,NE,L]
+RewriteRule ^o-(.+)\.html(#.*)?$ plug.php?rwr=o-$1$2 [NC,NE,L]
+RewriteRule ^s-([0-9]+)-[^/]+(.*)\.html(#.*)?$ forums.php?rwr=m-topics/s-$1$2$3 [NC,NE,L]
+RewriteRule ^s-(.+)\.html(#.*)?$ forums.php?rwr=m-topics/s-$1$2 [NC,NE,L]
+RewriteRule ^q-([0-9]+)-[^/]+(.*)\.html(#.*)?$ forums.php?rwr=m-posts/q-$1$2$3 [NC,NE,L]
+RewriteRule ^q-(.+)\.html(#.*)?$ forums.php?rwr=m-posts/q-$1$2 [NC,NE,L]
+RewriteRule ^t-([0-9]+)-[^/]+(.*)\.html(#.*)?$ forums.php?rwr=m-posts/p-$1$2$3 [NC,NE,L]
+RewriteRule ^t-(.+)\.html(#.*)?$ forums.php?rwr=m-posts/p-$1$2 [NC,NE,L]
+RewriteRule ^u-(.*)\.html(#.*)?$ users.php?rwr=m-details/id-$1$2 [NC,NE,L]
+# Main
+RewriteRule ^(admin|chat|forums|index|list|message|page|pfs|plug|pm|polls|rss|users|view|captcha)/(.+)\.html(#.*)?$ $1.php?rwr=$2$3 [NC,NE,L]
+RewriteRule ^(admin|chat|forums|index|list|message|page|pfs|plug|pm|polls|rss|users|view|captcha)\.html(#.*)?$ $1.php$2 [NC,NE,L]
+# Fixes
+RewriteRule ^.+/favicon.ico$ favicon.ico [NC,NE,L]
